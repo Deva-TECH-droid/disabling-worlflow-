@@ -1,0 +1,13 @@
+name: Disabled Workflow
+
+on:
+  push:
+     branches: [ main ]
+
+jobs:
+  disabled:
+    runs-on: ubuntu-latest
+    
+    steps:
+     - name: Devansh
+       run: echo "This workflow is disabled"
